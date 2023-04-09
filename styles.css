@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0
+  }
+  body{
+    background:#303841;
+  }
+  #navbar{
+    position:fixed;
+    background-color:#be3144;
+    width:100%;
+    top:0;
+    left:0;
+  
+  }
+  #navbar ul{
+    display:flex;
+    justify-content:flex-end;
+    list-style:none;
+    align-items:center;
+    height:12vh
+   
+  
+  }
+  #navbar ul li{
+  justify-content:space-around;
+  margin-right:10px;
+  
+  
+  }
+  a{
+    text-decoration:none;
+    color:#f0f0f0;
+    font-size:1.5rem;
+    padding:20px;
+    font-weight: 200;
+  }
+  .navLink:hover{
+    background-color:#303841;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  #welcome-section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    width:100%
+  }
+  #welcome-section>h1{
+    font-size:5rem;
+    font-weight: 700;
+    color:#f0f0f0;
+  }
+  #welcome-section>p{
+    font-size:2rem;
+    color:#be3144;
+  }
+  #projects{
+    background-color:#45567d;
+    width:100%;
+    text-align:center;
+    padding:40px
+  
+  }
+  
+  #projects h2{
+    font-size:2.9rem;
+    color:#f0f0f0;
+    border-bottom:1px solid;
+    display:inline;
+  
+  }
+  
+  .projects-details{
+    display:flex;
+    flex-wrap:wrap;
+    padding:40px;
+    gap:50px;
+    align-items:center;
+  }
+  .card{
+    background-color:#303841;
+    display:flex;
+    margin-left: 30px;
+  }
+  .project-image{
+    width:500px;
+    height:60vh
+  }
+  .Show-all{
+    display:inline;
+    border:1px solid #303841; 
+  background-color:#303841;
+  padding:15px;
+  }
+  .showLink:hover{
+    background-color:#be3144; 
+  }
+  #subFooter{
+    height:100vh;
+    text-align:center;
+    border-bottom:2px solid #be3144; 
+  }
+  .footer-text{
+    padding:30px;margin-top:30px;
+    
+  }
+  .footer-text h1{
+    font-size:4rem;
+    color:#f0f0f0;
+  font-weight:600;
+    
+  }
+  .footer-text p{
+    font-size:1.5rem;
+    color:#f0f0f0;
+    margin:40px;
+  }
+  
+  #footer{
+    display:flex;
+    justify-content:space-around;
+    padding:30px;
+    color:#f0f0f0;
+    font-size:1.2rem;
+  }
