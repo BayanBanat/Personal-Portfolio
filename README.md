@@ -1,3 +1,3 @@
 # Personal-Portfolio
 
-![personal_portfolio_page](./personal%20page.png)
+![personal_portfolio_page](././img/personal%20page.png)
